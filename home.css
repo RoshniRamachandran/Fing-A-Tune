@@ -1,0 +1,43 @@
+body {
+    background: lightblue url("e10.jpg") repeat;
+    text-align: center;
+    background-color: white;  
+}
+h1 {  
+    background-color:beige; 
+    border-top: #404B69;
+    font-size: 5rem;
+    color: black;
+    font-family: cursive;
+    text-shadow: 3px 0 #DA0463;
+    }
+.rose{
+  background-color:pink;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #404B69;
+}    
+.make{
+    background-color:#DA0463;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color:bisque;
+
+}
+.b1{
+    background-color: #4d939b;
+    height: 50px;
+    width:150px;
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+    margin-right: 300px;
+}
+.b3{
+    background-color: #4d939b;
+    height: 50px;
+    width:150px;
+    margin-left: 300px;
+    font-size: large;
+    font-weight: bold;  
+}

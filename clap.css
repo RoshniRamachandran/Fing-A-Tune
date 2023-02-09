@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: lightblue url("e10.jpg") repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tree{
+     color: rgb(14, 47, 44); 
+     font-size: 20px; 
+     margin-bottom: 20px;
+     font-family: 'Courier New';
+    
+}
+.rose{  
+    background-color:beige;
+    font-size: 5rem;
+    color: black;
+    font-family: 'Arvo',cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 390px;
+}
+.container{
+    border: 1px solid black;
+    background-color: rgb(163, 42, 92);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 65px;
+    padding-left: 85px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container div{
+    width: 100px;
+    height: 90px;
+    background: rgb(212, 211, 211);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.animate{
+    transform: scale(1.09);
+    border: 4px solid rgb(3, 102, 53);
+}
+.container div h2{
+    font-weight: 800;
+    font-size: 29px;
+}
+.container div h3{
+   color: rgb(3, 102, 53);
+   font-size: 17px;
+}
+.b1{
+    background-color: #4d939b;
+    height: 50px;
+    width:150px;
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+    margin-top:30px;
+}
+.b2{
+    background-color: #4d939b;
+    height: 50px;
+    width:150px;
+    margin-left: 550px;
+    font-size: large;
+    color: blue;
+    font-weight: bold;  
+}

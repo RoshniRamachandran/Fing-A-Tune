@@ -1,0 +1,35 @@
+
+h1{ 
+    background: lightblue url("e10.jpg") repeat;
+    background-color:beige;
+    font-size:55px;
+    color: black;
+    font-family: cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+.f1
+{
+    font-size:25px;
+    border: 3px solid black;
+ 
+
+}
+.b1{
+    
+    background-color: #4d939b;
+    height: 50px;
+    width:150px;
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+    margin-left: 500px;
+}
+.b2{
+    background-color: #4d939b;
+    height: 50px;
+    width:150px;
+    margin-left: 500px;
+    font-size: large;
+    color: blue;
+    font-weight: bold;  
+}

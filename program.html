@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Drum Kit</title>
+    <link rel="stylesheet" href="inbox.css">
+</head>
+<body>
+    <button class="b1"><a a style="text-decoration: none" href="index.html"><b>Home</b> </a></button> 
+    
+    <button class="b3"><a a style="text-decoration: none" href="program1.html"><b>Next</b> </a></button>  
+    <h1>The Drum Kit</h1>
+    <div class="all">
+        <button class="a button" onclick="playAudio('1')"></button>
+        <button class="b button"  onclick="playAudio('2')"></button>
+        <button class="c button"  onclick="playAudio('3')"></button>
+        <button class="d button"  onclick="playAudio('4')"></butt.on>
+        <button class="e button"  onclick="playAudio('5')"></button>
+        <button class="f button"  onclick="playAudio('6')"></button>
+        <button class="z button"  onclick="playAudio('7')"></button>
+    </div>
+<script>
+var audio1=new Audio('s1.mp3.mpeg');
+var audio2=new Audio('s2.mp3.mpeg');
+var audio3=new Audio('s3.mp3.mpeg');
+var audio4=new Audio('s4.mp3.mpeg');
+var audio5=new Audio('s5.mp3.mpeg');
+var audio6=new Audio('s6.mp3.mpeg');
+var audio7=new Audio('s7.mp3.mpeg');
+audio.play();
+function playAudio(x)
+{
+audio1.pause();
+audio2.pause();
+audio3.pause();
+audio4.pause();
+audio5.pause();
+audio6.pause();
+audio7.pause();
+if (x=='1') audio1.play();
+if (x=='2') audio2.play();
+if (x=='3') audio3.play();
+if (x=='4') audio4.play();
+if (x=='5') audio5.play();
+if (x=='6') audio6.play();
+if (x=='7') audio7.play();
+if (x=='8') 
+{
+audio1.pause();
+audio2.pause();
+audio3.pause();
+audio4.pause();
+audio5.pause();
+audio6.pause();
+audio7.pause();
+}
+}
+</script>
+
+    
+    
+    <button  class ="b2" onclick="playAudio('8')">Pause</button>  
+    
+</body>
+</html>
